@@ -23,6 +23,7 @@ h2 { border-bottom: 1px solid #3a4090; padding-bottom: 6px; margin-top: 40px; }
   display: flex; gap: 18px; align-items: center;
   background: var(--card); border-radius: 20px; padding: 16px;
 }
+.game + .game { margin-top: 16px; }
 .game img { width: 96px; height: 96px; border-radius: 22px; flex-shrink: 0; }
 .game h3 { margin: 0; }
 .game p { margin: 4px 0; color: var(--muted); }
